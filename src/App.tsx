@@ -1,17 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+// import Button from '@mui/material/Button';
+import EnhancedTable from './Table';
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello,React+Typescript !
-        </p>
-      </header>
+    <div>
+      <EnhancedTable></EnhancedTable>
+      {/* <Button variant="contained">Hello World</Button> */}
     </div>
   );
 }
-
-export default App;
